@@ -317,7 +317,6 @@ MyString & MyString::replace(const MyString & fromFormatStr,
      if ( (toFormatStr.size() > _size) || 
           (fromFormatStr.size() < toFormatStr._size))
      {
-         //std::cout << "valim!!!!!!!!!!!!!!!! (_|_)" << std::endl;
          cout << "Exit!" << endl;
          return *this;
      }
